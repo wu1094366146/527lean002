@@ -16,5 +16,5 @@ sed -i 's/192.168.1.1/192.168.0.2/g' package/base-files/files/bin/config_generat
 
 sed -i 's/luci-theme-bootstrap/luci-theme-edge/g' feeds/luci/collections/luci/Makefile
 ZZZ="package/lean/default-settings/files/zzz-default-settings"
-sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ
+#sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ
 sed -i "s/OpenWrt /w1094366146 compiled in $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" $ZZZ
